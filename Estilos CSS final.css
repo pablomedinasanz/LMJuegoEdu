@@ -1,0 +1,167 @@
+/*Portada*/
+.cajaPortada {
+	margin-top: 100px;
+	margin-left: 550px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border: 3px outset white;
+	width: 25%;
+	height: 100px;
+	padding: 5%;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+/*ESTILOS CAJAS*/
+.cajaEnunciado {
+	border-bottom: 3px solid;
+	width: 96%;
+	height:all;
+	padding: 2%;
+	text-align: center;
+	color: white;
+	margin: none;
+    display: table;
+    }
+
+    h1 { 
+    position: relative; 
+    float: middle;
+    background: rebeccapurple;
+    color: white;
+    font-size: 2.5em;
+    margin-left: 600px;
+    }
+
+    h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rebeccapurple;
+    border-left: 3px solid #000;
+    animation: escribir 5s steps(300) infinite;
+    animation-timing-function: ease-out;
+    }
+
+    @keyframes escribir {
+    from { width: 100%; }
+    to { width:0 }
+    }
+
+
+.cajaExterna {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border-style; none
+	width: 95%;
+	height: 650px;
+	padding: 0%;
+}
+.cajaTexto {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 50px;
+	border: 3px solid mediumpurple;
+	width: 90%;
+	height: 370px;
+	padding: 0%;
+	text-align: left;
+	font-weight: bold;
+	background-color: rebeccapurple;
+}
+.cajaBoton {
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 1100px;
+	width: 20%;
+	height: 150px;
+	padding: 0%;
+	float: bottom;
+}
+
+
+.letraCuerpo {
+    margin: auto;
+    display: table;
+    }
+
+    h1 { 
+    position: relative; 
+    float: left;
+    background: rebeccapurple;
+    color: white;
+    font-size: 2.5em;
+    }
+
+    h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rebeccapurple;
+    border-left: 3px solid #000;
+    animation: escribir 5s steps(300) infinite;
+    animation-timing-function: ease-out;
+    }
+
+    @keyframes escribir {
+    from { width: 100%; }
+    to { width:0 }
+    }
+
+
+
+
+/*ESTILOS BOTONES*/
+.botonContinuar {
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+	width: 50%;
+	height: 90px;
+	background-color: rebeccapurple;
+	font-size: 20px;	
+	font-weight: bold;
+	text-align: center;
+	border: outset;
+	border-radius: 20px;
+}
+.botonOpcion1 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+	width: 40%;
+	height: 100px;
+	background-color: rebeccapurple;
+	font-size: 20px;	
+	font-weight: bold;
+	text-align: center;
+	border: outset;
+	border-radius: 20px;
+}
+.botonOpcion2 {
+	float: right;
+	margin-top: 30px;
+	margin-right: 100px;
+	width: 40%;
+	height: 100px;
+	background-color: rebeccapurple;
+	font-size: 20px;	
+	font-weight: bold;
+	text-align: center;
+	border: outset;
+	border-radius: 20px;
+}
+.estiloBotonNave {
+	margin-left: 710px;
+	margin-top: 40px;
+	width: 20%;
+	height: 180px;
+}
